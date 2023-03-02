@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Arial','Monaco';
 }
 
 body {
@@ -57,4 +58,22 @@ body {
 
 .board > [data-status="marked"] {
     background-color: yellow;
+}
+
+#diff {
+    min-width: 100px;
+    border-radius: 7.5px;
+    font-size: 20px;
+}
+
+.flex {
+    font-size: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px
+}
+
+.options {
+    font-family: 'Arial','Monaco';
 }

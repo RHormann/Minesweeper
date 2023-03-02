@@ -9,8 +9,15 @@
     </head>
     <body>
         <h3 class="title">Minesweeper!</h3>
-        <div class="subtext">
-            Flags : <span data-flag-count></span>
+        <div class="flex">
+                <select name="Difficulty" id="diff" class="options">
+                    <option value="Easy">Easy</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Extreme">Extreme</option>
+                    <option value="Custom">Custom</option>
+                </select>
+                <span class="subtext">Flags : <span data-flag-count>n</span></span>
         </div>
         <div class="board"></div>
     </body>

@@ -4,7 +4,7 @@ import { createBoard, markTile, TILE_STATUSES, revealTile, checkWin, checkLose} 
 
 const BOARDSIZEX = 10
 const BOARDSIZEY = 10
-const NUMBEROFMINES = 1
+const NUMBEROFMINES = 15
 
 
 const board = createBoard(BOARDSIZEX,BOARDSIZEY,NUMBEROFMINES)
